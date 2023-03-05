@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogegbo Demilade | Software Engineer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link id="fonts" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;amp;display=swap">
+    <link href="assets/css/output.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/img/logo.png" type="image/png">
+    <script src="assets/js/font-awesome.js"></script>
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <style>
+        body {
+            color: #251234 !important;
+            scroll-behavior: smooth !important;
+        }
+
+        .stack-btn {
+            background-color: #251234 !important;
+            color: white !important;
+        }
+
+        #projects {
+            background-color: #FEF5EC !important;
+        }
+
+        .contct-form {
+            background: #fff !important;
+            box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px !important;
+            padding: 35px !important;
+        }
+
+        .contct-form .form-group .form-control {
+            border-radius: 0;
+            border: 1px solid rgba(15, 10, 10, 0.5);
+            height: auto;
+            box-shadow: none !important;
+            font-size: 15px;
+            color: black;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: black !important;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+
+        .font-alt {
+            color: #251234;
+            font-size: 24px;
+            position: relative;
+            padding: 0 0 15px;
+            margin: 0;
+            font-weight: 700;
+            font-family: "Nunito", serif;
+        }
+
+        .sm-title h4:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 3px;
+            background: #251234;
+        }
+
+        .media {
+
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .contact-info .media .icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(220, 150, 90, 0.1);
+            color: #251234;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .contact-info .media .media-body {
+            padding-left: 15px;
+            color: #251234;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="fixed w-full z-50 top-0 bg-[#030000]" id="header">
+        <div class="p-3 md:p-4 mx-auto">
+            <div class="flex justify-between md:justify-around">
+                <div class="text-white font-Karla">
+                    <a href="#">
+                        <img src="assets/images/img/logo2.png" id="brand" alt="" class="w-36">
+                    </a>
+                </div>
+
+                <div class="hidden md:block md:justify-between md:space-x-8 md:items-center">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+                <div class="hidden md:flex md:items-center md:justify-between md:space-x-4">
+                    <a href="https://github.com/demscript" target="_blank" class="py-2 px-4 rounded-full bg-[#161616]">
+                        <i class="fab fa-github text-white"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/demilade-ogegbo-a423531b5/" target="_blank"
+                        class="py-2 px-4 rounded-full bg-[#161616]">
+                        <i class="fab fa-linkedin text-white"></i>
+                    </a>
+                    <a href="https://twitter.com/demscript" target="_blank" class="py-2 px-4 rounded-full bg-[#161616]">
+                        <i class="fab fa-twitter text-white"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile button goes here Nav -->
+                <div class="md:hidden flex space-x-3 items-center">
+                    <a href="https://github.com/demscript" target="_blank" class="py-2 px-4 rounded-full bg-[#161616]">
+                        <i class="fab fa-github text-white"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/demilade-ogegbo-a423531b5/" target="_blank"
+                        class="py-2 px-4 rounded-full bg-[#161616]">
+                        <i class="fab fa-linkedin text-white"></i>
+                    </a>
+                    <a href="https://twitter.com/demscript" target="_blank" class="py-2 px-4 rounded-full bg-[#161616]">
+                        <i class="fab fa-twitter text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- Navbar Ends Here -->
+
+    <!-- Intro Starts Here -->
+    <section class="mb-4 lg:mb-0 lg:h-screen" id="intro">
+        <div class="flex flex-col h-screen">
+            <div class="my-auto mx-auto">
+                <div
+                    class="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-5 py-8 lg:py-16 px-8 md:px-16 lg:px-40 xl:px-48 2xl:px-64 lg:place-items-center">
+                    <div>
+                        <h1 class="text-2xl md:text-4xl lg:text-6xl font-extrabold hover:animate-bounce font-Monts">
+                            Hello, 👋<p class="my-3">I'm Demilade</p>
+                        </h1>
+                        <div class="space-y-5 font-Karla">
+                            <h6 class="font-semibold text-gray-500">Software Engineer | Fullstack Developer(It
+                                Flunctuates 😜)</h6>
+                            <p class="" data-aos="zoom-out" data-aos-delay="50" data-aos-easing="ease-in-out">I'm a
+                                creative and analytical software engineer with a strong sense of teamwork. I specialize
+                                in building highly responsive web-based applications.</p>
+                            <p class="" data-aos="zoom-out" data-aos-delay="50" data-aos-easing="ease-in-out">My
+                                extensive experience over the years, which is still growing, has produced several
+                                valuable software products. Use the buttons below if you'd like to contact me or learn
+                                more about me.</p>
+                            <div class="row">
+                                <div class="col-md-6 col-6">
+                                    <div class="py-3">
+                                        <a href="#contact"
+                                             class="text-center px-6 contact-btn">
+                                            Contact Me
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="py-3">
+                                        <a href="assets/demilade-ogegbo-resume.pdf" target="_blank"
+                                            class="text-center px-6 contact-btn2">
+                                            My Resumé
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative hidden lg:block lg:w-full xl:w-5/6 2xl:w-4/6">
+                        <span
+                            class="flex absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:-right-4 lg:top-4"
+                            data-aos="slide-left" data-aos-delay="500" data-aos-easing="ease-in-out">
+                            <i class="fab fa-css3"></i>
+
+                            CSS 3
+                        </span>
+
+                        <span data-aos="slide-right" data-aos-delay="500"
+                            class="absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:-right-20 lg:top-32">
+                            <i class="fab fa-node"></i>
+                            Node JS
+                        </span>
+                        <span data-aos="slide-right" data-aos-delay="500"
+                            class="absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:-top-6 xl:-top-4 lg:left-8">
+                            <i class="fab fa-laravel"></i>
+                            Laravel
+                        </span>
+                        <span data-aos="slide-right"
+                            class="absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:top-24 lg:-left-28 xl:-left-20">
+                            <i class="fab fa-html5"></i>
+                            HTML5
+                        </span>
+                        <div class="rounded-full">
+                            <img src="assets/images/img/Demi.JPG" alt="" class="rounded-full w-full">
+                        </div>
+                        <span
+                            class="absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:-left-14 lg:bottom-14"
+                            data-aos="slide-right">
+                            <i class="fab fa-php"></i>
+                            PHP
+                        </span>
+                        <span
+                            class="absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:left-16 lg:-bottom-8">
+                            <i class="fab fa-vuejs"></i>
+                            Vue JS
+                        </span>
+                        <span
+                            class="absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:-right-8 lg:bottom-4"
+                            data-aos="zoom-out" data-aos-delay="700">
+                            <i class="fab fa-js-square"></i>
+                            JavaScript
+                        </span>
+                        <span
+                            class="flex absolute stack-btn text-[#161616] py-2 px-8 rounded-full font-semibold font-Monts lg:-right-28 lg:bottom-28"
+                            data-aos="slide-down" data-aos-delay="800" data-aos-easing="ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mx-1" fill="none"
+                                viewBox="0 0 54 33">
+                                <g clip-path="url(#prefix__clip0)">
+                                    <path fill="#000000" fill-rule="evenodd"
+                                        d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z"
+                                        clip-rule="evenodd" />
+                                </g>
+                                <defs>
+                                    <clipPath id="prefix__clip0">
+                                        <path fill="#fff" d="M0 0h54v32.4H0z" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            Tailwind
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Intro Ends Here -->
+    <!-- Projects Starts Here -->
+    <section class="" id="projects">
+        <div class="px-8 md:px-16 lg:px-40 2xl:px-64 py-8 lg:py-16">
+            <div class="flex items-center w-full space-x-3 mb-4 lg:mb-8">
+                <div data-aos="zoom-out">
+                    <h1 class="text-2xl md:text-4xl lg:text-6xl font-extrabold font-Monts">Notable Projects
+                    </h1>
+                </div>
+                <div class="hidden lg:block lg:w-[40%] 2xl:w-[60%] mx-auto">
+                    <p class="border-2  mx-auto w-full" style="border: 2px solid #251234;"></p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-5 lg:gap-x-14 gap-y-5 lg:gap-y-8 py-8">
+                <a href="https://edutams.net/" target="_blank" class="shadow-lg" data-aos="zoom-in" data-aos-delay="800"
+                    data-aos-easing="ease-in-out">
+                    <div class="relative w-full">
+                        <span
+                            class="font-Karla py-2 px-8 absolute text-white rounded-full mt-4 text-xs bg-[#161616] right-4">Web
+                            App</span>
+                        <img class="h-48 lg:h-56 object-cover w-full" src="assets/images/projects/Edutams.png" alt="">
+                    </div>
+                    <div class="py-4" data-aos="slide-right" data-aos-delay="500" data-aos-easing="ease-in-out">
+                        <h6 class="font-semibold pl-3 font-Monts">EduTAMS</h6>
+                    </div>
+                </a>
+                <a href="https://app.rankvault.online/" target="_blank" class="shadow-lg" data-aos="zoom-in"
+                    data-aos-delay="800" data-aos-easing="ease-in-out">
+                    <div class="relative w-full">
+                        <span
+                            class="font-Karla py-2 px-8 absolute text-white rounded-full mt-4 text-xs bg-[#161616] right-4">Web
+                            App</span>
+                        <img class="h-48 lg:h-56 object-cover w-full" src="assets/images/projects/rankvault.png" alt="">
+                    </div>
+                    <div class="py-4" data-aos="slide-right" data-aos-delay="500" data-aos-easing="ease-in-out">
+                        <h6 class="font-semibold pl-3 font-Monts">Rankvault</h6>
+                    </div>
+                </a>
+                <a href="https://web.3al.com/" target="_blank" class="shadow-lg" data-aos="zoom-in" data-aos-delay="800"
+                    data-aos-easing="ease-in-out">
+                    <div class="relative w-full">
+                        <span
+                            class="font-Karla py-2 px-8 absolute text-white rounded-full mt-4 text-xs bg-[#161616] right-4">Web
+                            App</span>
+                        <img class="h-48 lg:h-56 object-cover w-full" src="assets/images/projects/3al.png" alt="">
+                    </div>
+                    <div class="py-4" data-aos="slide-right" data-aos-delay="500" data-aos-easing="ease-in-out">
+                        <h6 class="font-semibold pl-3 font-Monts">3al</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Ends Here -->
+    <!-- Contacts Starts Here -->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <div class="flex items-center w-full space-x-3 mb-4 lg:mb-8">
+                <div data-aos="zoom-out">
+                    <h1 class="text-2xl md:text-4xl lg:text-6xl font-extrabold font-Monts">
+                        Send me a message!
+                    </h1>
+                </div>
+                <div class="hidden lg:block lg:w-[40%] 2xl:w-[60%] mx-auto">
+                    <p class="border-2  mx-auto w-full" style="border: 2px solid #251234;"></p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 my-3">
+                    <div class="contct-form">
+                        <form action="" method="post" class="wpcf7" accept-charset="UTF-8">
+
+                            <!-- <p class="message notice alert alert-success">Thank you for your message; we will respond as
+                                soon as possible.</p> -->
+
+
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control pt-3 pb-3" placeholder="Full name"
+                                            name="fromName" id="from-name" value="" required="">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input name="fromEmail" value="" type="email" class="form-control pt-3 pb-3"
+                                            id="from-email" placeholder="Email address" required="">
+
+
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <textarea name="message" rows="4" class="form-control"
+                                            placeholder="Hi, I think we need a Software for our Company X. How soon can you hop on to discuss this?"
+                                            id="message" required=""></textarea>
+
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="btn-bar">
+                                        <button class="px-btn px-btn-theme contact-btn" type="submit">Send your
+                                            message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 ml-auto my-3">
+                    <div class="contact-info">
+                        <div class="sm-title mb-4">
+                            <h4 class="font-alt">Get in touch</h4>
+                        </div>
+                        <!-- <div class="media">
+                            <div class="icon">
+                                <i class="ti-map"></i>
+                            </div>
+                            <span class="media-body">123 Stree New York City , <br /> United States Of America <br /> NY 750065.</span>
+                        </div> -->
+                        <div class="media mb-3">
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <span class="media-body"><a href="mailto:demscript@gmail.com"
+                                    style="color:#0f0a0a;">demscript@gmail.com</a></span>
+                        </div>
+                        <div class="media">
+                            <div class="icon">
+                                <i class="fa fa-mobile"></i>
+                            </div>
+                            <span class="media-body">+234 0813 340 2817</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Here -->
+    <!-- Footer -->
+    <div class="bg-[#030000] border-t-2 border-gray-500">
+        <div class="container mx-auto py-4 md:px-16 md:flex md:justify-between text-center">
+            <p class="font-Karla text-sm"><script>document.write(new Date().getFullYear())</script> © Copyright. All Rights Reserved</p>
+            <p class="font-Karla text-white text-sm">
+                <a href="/" style="color:#251334; text-decoration: none;">
+                    Demscript🧢
+                </a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer Ends Here -->
+</body>
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+<!-- Mirrored from kasimridwan.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Jan 2023 21:42:30 GMT -->
+
+</html>
